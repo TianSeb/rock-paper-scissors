@@ -1,0 +1,101 @@
+  
+html{
+    background-size: 100% 100%;
+    font-family: 'Gloria Hallelujah', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/background.jpg);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: lightsalmon;
+    font-size: 4rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.players {
+    background-color: rgb(65, 65, 65);
+    border-radius: 10px;
+    position:relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto auto 40px;
+    display: inline-flex;
+    box-shadow: 5px 5px rgb(148, 197, 148);
+    transform: translateY(4px);
+}
+
+.content {
+    width: 150px;
+    height: 150px;
+    border: 2px solid lightsalmon;
+    background-color: honeydew;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; /* 10px between elements */
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.score {
+    position: absolute;
+    display: flex;
+    background-color: honeydew;
+    border: 2px solid lightsalmon;
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 155px;
+}
+
+
+#options,#optionspc {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    margin: 270px 10px;
+}
+
+.btns {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color: lightsalmon;
+    margin: 10px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    background-size: cover;
+    background-position: center;
+}
+
+.pressed {
+    border-color: deeppink;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+footer {
+        background-color: lightsalmon;
+        width: 100%;
+        height: 5%;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        padding-top: 15px;
+}
+
